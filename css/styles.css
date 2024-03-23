@@ -113,6 +113,28 @@ img {
   color: #404bbf;
 }
 
+.features {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.list-features {
+  display: flex;
+  gap: 24px;
+}
+
+.list-features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.advantages {
+  margin-bottom: 8px;
+}
+
 .address {
   font-style: normal;
 }
