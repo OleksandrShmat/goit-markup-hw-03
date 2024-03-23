@@ -57,38 +57,20 @@ img {
 
 .menu {
   display: flex;
+  gap: 40px;
 }
 
 .menu-item {
-  margin-right: 40px;
-}
-
-.menu-item-first {
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.menu-item-second {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.menu-item-last {
   margin-right: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
-}
-
-.address-item-first {
-  margin-right: 40px;
-}
-
-.address-item-second {
-  margin-right: 0;
+  gap: 40px;
 }
 
 .order-button {
