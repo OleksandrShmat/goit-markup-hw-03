@@ -176,6 +176,32 @@ img {
   text-align: center;
 }
 
+.list-product {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.product {
+  margin-bottom: 72px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.product-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.product-list-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .address {
   font-style: normal;
 }
@@ -243,6 +269,22 @@ footer {
   background-color: #2e2f42;
 }
 
+.finish {
+  padding: 100px 0;
+}
+
+.logo-footer {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+}
+
 .logo-name-down {
   color: #f4f4fd;
 }
@@ -251,4 +293,5 @@ footer {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
