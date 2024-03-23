@@ -72,6 +72,10 @@ img {
   gap: 40px;
 }
 
+.title-h {
+  max-width: 496px;
+}
+
 .order-button {
   font-size: 16px;
   font-weight: 500;
@@ -79,6 +83,12 @@ img {
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .order-button:hover,
